@@ -1,0 +1,91 @@
+
+.navbar_logo{background-color: white;}
+.img_logo{height: 70px;
+    width: 250px;}
+.navbar{display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color:white;
+    align-items: center;
+    width: 100%;}
+.lite{display: inline-block;
+    padding: 10px;
+    background-color: white;}
+.barnav{background-color: none;
+    display: flex;
+    justify-content: center;
+    }
+ul{list-style-type: none;}
+.item{display: inline-block;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: none;
+    margin-left: 70px;
+    border: 1px solid black;
+    border-radius: 5px;}
+/* input{position: absolute;} */
+.search_bar{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;}
+.search_bar_img{height: 300px;
+    width: 1000px;}
+input{position:absolute;
+    height: 40px;
+    width: 400px;
+    border-radius: 40px;}
+.trip_card_container{display: flex;
+    flex-wrap: wrap;}
+.trip_card{position: relative;
+    height:300px;
+    width: 300px;
+    background-color: aqua;
+    margin: 3px ;
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 5px;
+    flex-wrap: wrap;
+    }
+.trip_card_heading{position: absolute;
+    top:250px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    background-color:none;}
+/* experience container */
+.experience_container{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+.experience_card{width: 250px;
+    background-color: white;
+    margin: 10px;}
+.circle_container{display: flex;
+    padding: 10px;
+}
+.circle{background-color: green;
+    width: 15px;
+    border-radius: 100%;margin: 1px;}
+.experience_para{font-weight: bold;}
+.experience_card_img{height: 250px;}
+/* women */
+.women{display: flex;
+    background-color: goldenrod;
+    padding: 10px;}
+.h1{text-align: center;}
+.p{text-align: center;}
+.womentext{justify-content: center;
+    display: flex;
+    align-items: center;}
+.nexttrip{display:flex;
+    background-color: lightpink;
+    justify-content: space-between;
+    margin: 20px;}
+.nextimg{height: 200px;
+    width: 500px;}
+.trip1{padding: 10px;}
+.button{height: 50px;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color: white;}
